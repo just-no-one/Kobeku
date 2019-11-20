@@ -3,7 +3,7 @@ var shoppingCart = (function() {
   function Item(name, price, count) {
     this.name = name;
     this.price = price;
-    this.count = count;
+    this.count = count
   }
   function saveCart() {
     sessionStorage.setItem('shoppingCart', JSON.stringify(cart));
